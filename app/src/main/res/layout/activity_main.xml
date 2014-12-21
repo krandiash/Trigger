@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:stateListAnimator="@anim/anim"
+        android:src="@drawable/ic_action_add"
+        android:elevation="@dimen/button_elevation"
+        android:tint="@android:color/white"
+        android:background="@drawable/oval"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+            android:id="@+id/fab1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="150dp"
+            android:layout_marginBottom="16dp"
+            android:stateListAnimator="@anim/anim"
+            android:src="@drawable/ic_action_add"
+            android:elevation="@dimen/button_elevation"
+            android:tint="@android:color/black"
+            android:background="@drawable/oval"
+            />
+
+        <ImageButton
+            android:id="@+id/fab4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="150dp"
+            android:stateListAnimator="@anim/anim"
+            android:src="@drawable/ic_action_add"
+            android:elevation="@dimen/button_elevation"
+            android:tint="@android:color/black"
+            android:background="@drawable/oval"
+            />
+
+        <ImageButton
+            android:id="@+id/fab3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="77dp"
+            android:layout_marginBottom="127dp"
+            android:stateListAnimator="@anim/anim"
+            android:src="@drawable/ic_action_add"
+            android:elevation="@dimen/button_elevation"
+            android:tint="@android:color/black"
+            android:background="@drawable/oval"
+            />
+
+        <ImageButton
+            android:id="@+id/fab2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="127dp"
+            android:layout_marginBottom="77dp"
+            android:stateListAnimator="@anim/anim"
+            android:src="@drawable/ic_action_add"
+            android:elevation="@dimen/button_elevation"
+            android:tint="@android:color/black"
+            android:background="@drawable/oval"
+            />
+
+
+    </FrameLayout>
+
+</RelativeLayout>
